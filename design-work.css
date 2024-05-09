@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.first-div{
+    height: 100px;
+   margin: 0px auto;
+   /* border: 2px solid blue; */
+   width: 80%;
+   
+}
+.my-div{
+    display: flex;
+}
+.logo-div{
+    width: 65%;
+    /* border: 2px solid green; */
+}
+.my-link{
+    display: flex;
+    width: 35%;
+    /* border: 2px solid green; */
+    justify-content:space-between;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    border: 2px solid olive;
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid hotpink */
+    
+}
+aside img{
+    height: 100%;
+    width: 100%;
+}
+.aside-para{
+ display: flex;
+ /* flex-wrap: wrap; */
+ width: 100%;
+ height: 32%;
+ gap: 10px;
+}
+.first-para{
+    /* border: 2px solid blue; */
+    width: 80%;
+    font-size: 33px;
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div-for-para{
+    width: 100%;
+    height: fit-content;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+    /* justify-content: space-around; */
+}
+.second-para{
+    /* border: 2px solid darkred; */
+    width: 100%;
+    height: 70%;
+    font-weight: bold;
+    
+
+
+}
+.third-para{
+    display: flex;
+    align-self: center;
+    font-weight: bolder;
+    padding-left: 20%;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 65%;
+    border: 2px solid powderblue;
+    background-color: black;
+    height: 40px;
+    color: white;
+}
+
+
+
+main{
+  /* border: 2px solid lime;  */
+  background-color: black;
+  color: white;
+  height: 133%; 
+  width: 35%;
+  padding-left: 20px;
+  padding-right: 60px;
+}
+.my-hi{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: darkred;
+}
+.my-h2{
+  margin-top:2%;
+}
+.main-p{
+    margin-top:4%;
+    margin-bottom: 30%;
+    border-bottom: 2px solid white;
+}
+.second-p{
+    margin-top: 4%;
+    margin-bottom: 30%;
+    border-bottom: 2px solid white;
+}
+.my-h3{
+    font-style: italic;
+}
+.third-p{
+    margin-top: 8%;
+    border-bottom: 2px solid white;
+}
+.last-div{
+  margin-top: 10%;
+}
+.last-div{
+    border: 2px solid red;
+}
+.general-div{
+  display: flex;
+  gap: 20px;     
+}
+.box-one{
+    display: flex;
+    width: 30%;
+    gap: 3%;
+  /* border: 2px solid green; */
+}
+.box-two{
+    display: flex;
+    width: 35%;
+    gap: 3%;
+    /* border: 2px solid blue; */
+}
+.box-three{
+    display: flex;
+    width: 35%;
+    gap: 3%;
+    /* border: 2px solid purple; */
+}
+.first-img{
+    height: 38%;
+}
+.second-img{
+    height: 38%; 
+}
+.third-img{
+    height: 38%; 
+}
